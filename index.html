@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoTravel - Travel Around The World</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+
+    <a href="#" class="logo">
+        <i class="fas fa-paper-plane"></i>Aqsora
+    </a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#destination">Destination</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   <div class="icons">
+
+    <i class="fas fa-user" id="login-btn"></i>
+
+    <i class="fas fa-moon" id="theme-btn"></i>
+
+    <div class="user-info" id="user-info">
+
+        <span id="user-name"></span>
+
+        <button id="logout-btn">Logout</button>
+
+    </div>
+
+    <i class="fas fa-bars" id="menu-btn"></i>
+
+</div>
+
+</header>
+
+
+<div class="login-form-container" id="login-form">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+
+    <form action="" class="form-box active" id="login-box">
+
+        <h3>User Login</h3>
+
+        <input 
+        type="email" 
+        id="login-email"
+        placeholder="Enter your email" 
+        class="box" 
+        required>
+
+
+        <input 
+        type="password"
+        id="login-password"
+        placeholder="Enter your password" 
+        class="box" 
+        required>
+
+
+        <input 
+        type="submit" 
+        value="Login Now" 
+        class="btn">
+
+
+        <p>
+        Don't have an account? 
+        <a href="#" id="to-register">
+        Register now
+        </a>
+        </p>
+
+    </form>
+
+
+
+
+    <form action="" class="form-box" id="register-box">
+
+        <h3>Register New Account</h3>
+
+
+        <input 
+        type="text" 
+        id="reg-name"
+        placeholder="Enter your name" 
+        class="box" 
+        required>
+
+
+        <input 
+        type="email" 
+        id="reg-email"
+        placeholder="Enter your email" 
+        class="box" 
+        required>
+
+
+        <input 
+        type="password" 
+        id="reg-password"
+        placeholder="Create password" 
+        class="box" 
+        required>
+
+
+        <input 
+        type="submit" 
+        value="Register Now" 
+        class="btn">
+
+
+        <p>
+        Already have an account? 
+        <a href="#" id="to-login">
+        Login now
+        </a>
+        </p>
+
+    </form>
+
+
+</div>
+    <section class="home" id="home">
+        <div class="content">
+            <span>Take Only Memories</span>
+            <h3>Leave Only Footprints</h3>
+            <p>Every Journey Begins with a Dream Let's Make It Real.</p>
+            <a href="#destination" class="btn">Explore More</a>
+        </div>
+    </section>
+    
+
+<section class="destination" id="destination">
+        <h1 class="heading"><span>Our Destination</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/6f/e2/08/6fe208de39b927e3eff6b8624965d2c6.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Karachi, Pakistan</h3>
+                    <p>The city of lights featuring beautiful coastal views and bustling vibrant shores.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/b3/78/12/b37812d6171db194b4905993e4f1b1a0.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Sialkot, Pakistan</h3>
+                    <p>A historic city rich in culture, industrial spirit, and deep heritage.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/16/bf/8d/16bf8de2404ebf22454f764b456759f1.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Multan, Pakistan</h3>
+                    <p>The city of saints known for its magnificent shrines and cultural heritage.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/c3/98/e2/c398e2c5d542473822b64549929810a0.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Narowal, Pakistan</h3>
+                    <p>A serene land graced with lush green fields and remarkable historical landmarks.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/b5/76/bb/b576bba102af7435a4081826ec5bb4cc.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Islamabad, Pakistan</h3>
+                    <p>A peaceful capital nestled against the green hills of Margalla with modern design.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/736x/00/d2/28/00d228e40a300a8bec67988bb3e9a4f6.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Lahore, Pakistan</h3>
+                    <p>A city of vibrant culture, historical Mughal architecture, and world-famous food streets.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/6b/53/cb/6b53cbaf9845c9508ed118ad9b7fc24b.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Hunza Valley, Pakistan</h3>
+                    <p>Majestic mountains, crystal clear streams, and breathtaking views of Passu Cones.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/c7/2d/a2/c72da2a8dde4a3b528f69c20d9a87248.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Skardu, Pakistan</h3>
+                    <p>The gateway to the highest peaks, serene cold deserts, and stunning blue lakes.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://images.unsplash.com/photo-1582510003544-4d00b7f74220" alt=""></div>
+                <div class="content">
+                    <h3>Swat Valley, Pakistan</h3>
+                    <p>Known as the Switzerland of East with snow-capped peaks and blooming orchards.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image"><img src="https://i.pinimg.com/1200x/4a/2c/db/4a2cdb9900591d2542d7da8a65e060c7.jpg" alt=""></div>
+                <div class="content">
+                    <h3>Naran Kaghan, Pakistan</h3>
+                    <p>Lush green pine forests, roaring rivers, and the mesmerizing fairy-tale Lake Saiful Muluk.</p>
+                    <a href="#">Read More <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h1 class="heading"><span>Client Testimonials</span></h1>
+        <div class="testimonial-slider">
+            <div class="slide active">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis cumque expedita doloribus.</p>
+                <div class="user">
+                    <img src="https://i.pinimg.com/736x/87/e8/e3/87e8e33bd987958fd95dff988a129774.jpg" alt="">
+                    <div class="info"><h3>Kim Aqsa</h3><span>Traveler</span></div>
+                </div>
+            </div>
+            <div class="slide">
+                <p>An amazing experience! Everything was well organized and perfectly handled.</p>
+                <div class="user">
+                    <img src="https://i.pinimg.com/736x/80/2f/70/802f70984741757e648ea2a1194ec6ff.jpg" alt="">
+                    <div class="info"><h3>Rabia</h3><span>Blogger</span></div>
+                </div>
+            </div>
+            <div class="slide">
+                <p>The scenery was breathtaking. The residents welcomed me happily with smiles.</p>
+                <div class="user">
+                    <img src="https://i.pinimg.com/736x/4d/b3/ae/4db3ae6ba6964b32302e7d9162e78a78.jpg" alt="">
+                    <div class="info"><h3>Rehan Ali</h3><span>Photographer</span></div>
+                </div>
+            </div>
+            <div class="slide"><p>Top notch hospitality and beautiful hotels during my stay.</p><div class="user"><img src="https://i.pinimg.com/736x/cb/27/e6/cb27e6f2a8e3cb27e0711b57def916ae.jpg" alt=""><div class="info"><h3>Hassan Ali</h3><span>Tourist</span></div></div></div>
+            <div class="slide"><p>Unforgettable sunsets and fantastic local food tours!</p><div class="user"><img src="https://i.pinimg.com/736x/13/eb/9c/13eb9c64299bf35c0091d75a23d1d192.jpg" alt=""><div class="info"><h3>Zainab Fatima</h3><span>Designer</span></div></div></div>
+            <div class="slide"><p>Great support from the travel guide throughout the journey.</p><div class="user"><img src="https://i.pinimg.com/736x/b6/19/19/b619198378b53085c5010e435684c4c3.jpg" alt=""><div class="info"><h3>Areeba Javed</h3><span>Engineer</span></div></div></div>
+            <div class="slide"><p>Everything was smooth, from airport pickup to hotel check-in.</p><div class="user"><img src="https://i.pinimg.com/736x/96/1c/d3/961cd355201467638a35848d9ab6b977.jpg" alt=""><div class="info"><h3>Zeeshan Ali</h3><span>Doctor</span></div></div></div>
+            <div class="slide"><p>Will definitely book our next vacation with GoTravel again!</p><div class="user"><img src="https://i.pinimg.com/736x/cd/79/83/cd7983b6bfed3a0fa725b943d8c873b0.jpg" alt=""><div class="info"><h3>Noor Ul Hira</h3><span>Writer</span></div></div></div>
+            <div class="slide"><p>A magical tour of ancient temples and modern cities.</p><div class="user"><img src="https://i.pinimg.com/736x/dc/47/7d/dc477d9fcf963d8aac5369ae1c7fb863.jpg" alt=""><div class="info"><h3>Zikria Rehman</h3><span>Artist</span></div></div></div>
+            <div class="slide"><p>Completely stress-free and enjoyable vacation package.</p><div class="user"><img src="https://i.pinimg.com/736x/09/6b/fb/096bfb0900e4b5e6c41368338c1acb26.jpg" alt=""><div class="info"><h3>Azaan</h3><span>Vlogger</span></div></div></div>
+        </div>
+        <div class="controls">
+            <i class="fas fa-angle-left" id="prev-slide"></i>
+            <i class="fas fa-angle-right" id="next-slide"></i>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading"><span>Our Gallery</span></h1>
+        <div class="box-container">
+            <div class="box"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt=""><span>Bali</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1519046904884-53103b34b206" alt=""><span>Dubai</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt=""><span>Paris</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e" alt=""><span>Tokyo</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1533105079780-92b9be482077" alt=""><span>Santorini</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963" alt=""><span>Rome</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad" alt=""><span>London</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9" alt=""><span>Sydney</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1549880338-65ddcdfd017b" alt=""><span>Swiss Alps</span></div>
+            <div class="box"><img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9" alt=""><span>New York</span></div>
+        </div>
+    </section>
+
+<section class="book-form-section">
+   <h1 class="heading">
+    <span>Book Trip / Tour</span>
+</h1>
+
+<div class="booking-container">
+    <div class="booking-tabs">
+       <button class="tab-btn active" id="book-tab">
+    Book Trip / Tour
+</button>
+
+<button class="tab-btn" id="manage-tab">
+    Manage Booking
+</button>
+
+<button class="tab-btn" id="status-tab">
+    Travel Status
+</button>
+    </div>
+        
+        <form action="" class="booking-form">
+            <div class="trip-type">
+                <label><input type="radio" name="trip" checked> One way</label>
+                <label><input type="radio" name="trip"> Round-trip</label>
+                <label><input type="radio" name="trip"> Multi-City</label>
+            </div>
+
+            <div class="input-grid">
+                <div class="input-box">
+                    <span>From</span>
+                    <input type="text" placeholder="Departure City (e.g., Lahore)">
+                </div>
+                <div class="input-box">
+                    <span>To</span>
+                    <input type="text" placeholder="Destination City (e.g., Hunza)">
+                </div>
+                <div class="input-box">
+                    <span>Departing</span>
+                    <input type="date">
+                </div>
+                <div class="input-box">
+                    <span>Returning</span>
+                    <input type="date">
+                </div>
+                <div class="input-box">
+                    <span>Passengers & Class</span>
+                    <input type="text" value="1 Passenger / Economy">
+                </div>
+            </div>
+
+            <div class="form-footer-row">
+                <div class="checkboxes">
+                    <label><input type="checkbox"> Direct flights only</label>
+                    <label><input type="checkbox"> Flexible dates (+/- 3 days)</label>
+                </div>
+                <div class="promo-box">
+                    <input type="text" placeholder="Enter Promo Code">
+                </div>
+                <button type="submit" class="btn show-flight-btn">SHOW TOURS <i class="fas fa-paper-plane"></i></button>
+            </div>
+        </form>
+       
+<div id="search-results" style="display:none; margin-top:40px;">
+
+    <h2 class="heading">
+        <span>Available Tours</span>
+    </h2>
+
+    <div id="results-container" class="results-container">
+
+    </div>
+
+</div>
+
+<div id="manage-booking" style="display:none; margin-top:40px;">
+
+    <h2 class="heading">
+        <span>Manage Booking</span>
+    </h2>
+
+    <input
+        type="text"
+        id="search-booking-id"
+        placeholder="Enter Booking ID"
+        class="box"
+    >
+
+    <button class="btn" id="find-booking">
+        Search Booking
+    </button>
+
+    <div id="booking-details" style="display:none; margin-top:30px;">
+
+        <h3 id="manage-name"></h3>
+
+        <p><strong>Booking ID:</strong> <span id="manage-id"></span></p>
+
+        <p><strong>Email:</strong> <span id="manage-email"></span></p>
+
+        <p><strong>Phone:</strong> <span id="manage-phone"></span></p>
+
+        <p><strong>Seat Class:</strong> <span id="manage-seat"></span></p>
+
+        <button class="btn" id="edit-booking">
+            Edit Name
+        </button>
+
+        <button
+            class="btn"
+            id="cancel-booking"
+            style="background:#dc3545;"
+        >
+            Cancel Booking
+        </button>
+
+    </div>
+
+</div>
+
+<div id="travel-status" style="display:none; margin-top:40px;">
+
+    <h2 class="heading">
+        <span>Travel Status</span>
+    </h2>
+
+    <input
+        type="text"
+        id="status-id"
+        class="box"
+        placeholder="Enter Booking ID"
+    >
+
+    <button class="btn" id="check-status">
+        Check Status
+    </button>
+
+    <div id="status-result" style="display:none; margin-top:25px;">
+
+        <h3 id="status-company"></h3>
+
+        <p><strong>Status:</strong>
+            <span style="color:green;">On Time</span>
+        </p>
+
+        <p><strong>Departure:</strong> 08:00 AM</p>
+
+        <p><strong>Arrival:</strong> 10:45 AM</p>
+
+        <p><strong>Gate:</strong> A12</p>
+
+    </div>
+
+</div>
+    </div>
+</section>
+
+    <section class="footer" id="contact">
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="logo"><i class="fas fa-paper-plane"></i>Aqsora</a>
+                <p>Discover the world with comfort and unforgettable adventures.</p>
+            </div>
+            <div class="box">
+                <h3>About</h3>
+                <a href="#">About Us</a>
+                <a href="#">Features</a>
+                <a href="#">News & Blogs</a>
+            </div>
+            <div class="box">
+                <h3>Support</h3>
+                <a href="#">Call Center</a>
+                <a href="#">Support</a>
+                <a href="#">Payments</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-user"></i> Name: Aqsa Sanaullah</p>
+                <p><i class="fas fa-phone"></i> Phone: +92 305 8139998</p>
+                <p><i class="fas fa-envelope"></i> Email: kimaqsa763@gmail.com</p>
+            </div>
+            <div class="box">
+                <h3>Social</h3>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+        <div class="credit"> &copy; All Rights Reserved By <span>Aqsa Sanaullah</span> </div>
+    </section>
+
+<div class="booking-modal" id="booking-modal">
+
+    <div class="booking-box">
+
+        <span id="close-booking">&times;</span>
+
+        <h2>Complete Your Booking</h2>
+
+        <form id="booking-form">
+
+            <input
+                type="text"
+                id="passenger-name"
+                placeholder="Passenger Name"
+                required
+            >
+
+            <input
+                type="email"
+                id="passenger-email"
+                placeholder="Email Address"
+                required
+            >
+
+            <input
+                type="tel"
+                id="passenger-phone"
+                placeholder="Phone Number"
+                required
+            >
+
+            <select id="seat-class">
+                <option>Economy</option>
+                <option>Business</option>
+                <option>First Class</option>
+            </select>
+
+            <input type="hidden" id="selected-tour">
+
+            <button type="submit" class="btn">
+                Confirm Booking
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div class="booking-modal" id="ticket-modal">
+
+    <div class="booking-box">
+
+        <div id="ticket-content" class="premium-ticket">
+
+            <div class="ticket-top">
+
+                <div class="brand">
+                    <i class="fas fa-plane-departure"></i>
+
+                    <div class="ticket-brand">
+                        <h2>AQSORA TRAVEL</h2>
+                        <p>Your Journey Begins Here</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+    <div class="ticket-image">
+
+        <img
+        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+        alt="Travel Banner">
+
+    </div>
+
+
+    <div class="route-box">
+
+        <div>
+
+            <span>FROM</span>
+
+           <h3 id="ticket-from"></h3>
+
+        </div>
+
+        <div class="plane-line">
+
+            <i class="fas fa-plane"></i>
+
+        </div>
+
+        <div>
+
+            <span>TO</span>
+
+            <h3 id="ticket-to"></h3>
+        </div>
+
+    </div>
+
+
+    <div class="ticket-grid">
+
+        <div class="info">
+
+            <label>Passenger</label>
+
+            <h3 id="ticket-name"></h3>
+
+        </div>
+
+        <div class="info">
+
+            <label>Booking ID</label>
+
+            <h3 id="ticket-id"></h3>
+
+        </div>
+
+        <div class="info">
+
+            <label>Email</label>
+
+            <p id="ticket-email"></p>
+
+        </div>
+
+        <div class="info">
+
+            <label>Phone</label>
+
+            <p id="ticket-phone"></p>
+
+        </div>
+
+        <div class="info">
+
+           <label>Transport</label>
+
+<p id="ticket-company"></p>
+        </div>
+
+        <div class="info">
+
+            <label>Seat Class</label>
+
+            <p id="ticket-seat"></p>
+
+        </div>
+
+    </div>
+
+
+<div class="travel-details">
+
+    <div>
+
+        <span>Date</span>
+
+        <h4 id="ticket-date"></h4>
+
+    </div>
+
+    <div>
+
+        <span>Departure</span>
+
+        <h4 id="ticket-departure"></h4>
+
+    </div>
+
+    <div>
+
+        <span>Arrival</span>
+
+        <h4 id="ticket-arrival"></h4>
+
+    </div>
+
+    <div>
+
+        <span>Status</span>
+
+        <h4 class="status-confirmed">
+            CONFIRMED
+        </h4>
+
+    </div>
+
+</div>
+
+
+    <div class="ticket-bottom">
+
+       <img
+id="ticket-qr"
+src="images/qr.png"
+alt="QR Code">
+
+        <div>
+
+            <h3>Have a Safe Journey ❤️</h3>
+
+            <p>
+
+                Please arrive at least 2 hours before departure.
+
+            </p>
+
+            <small>
+
+                www.aqsora.com
+
+            </small>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+   
+
+<div class="ticket-buttons">
+
+<button class="btn" id="print-ticket">
+
+🖨 Print Ticket
+
+</button>
+
+<button class="btn" id="download-ticket">
+
+⬇ Download PDF
+
+</button>
+
+</div>
+
+        <button class="btn" id="close-ticket">
+            Close
+        </button>
+
+    </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
